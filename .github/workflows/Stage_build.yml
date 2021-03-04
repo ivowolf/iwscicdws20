@@ -71,6 +71,5 @@ bandit-scan:
         uses: jpetrucciani/bandit-check@master
         with:
         # only scans under this path
-
-              path: './flaskr'
+         path: './flaskr'
               
