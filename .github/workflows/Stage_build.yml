@@ -58,7 +58,7 @@ jobs:
       run: |
         pytest
 
-bandit-scan:
+  bandit-scan:
     needs: [test]
     runs-on: ubuntu-latest
     name: bandit static code check
